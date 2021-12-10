@@ -69,7 +69,7 @@ p,h1,h6,h2,h4,h3{
     border-radius: 50%;
     background: blue;
     margin-top: 6rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
     margin-bottom: 0.5rem;
 
 }
@@ -91,15 +91,151 @@ p,h1,h6,h2,h4,h3{
 .abh{
     display: flex;
     flex: wrap;
-    
+    align-items: flex-start;
     justify-content: space-around;
     
     
 }
 .cop{
-    flex-grow: 1;
     color: white;
+    flex-grow: 1;
 }
 .term{
     color: white;
+}
+
+.card-wrapper{
+    display: flex;
+}
+.cad{
+    flex: 1 1 400;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 3rem;
+    justify-content: space-betw;
+
+}
+.bord{
+    border: 1px solid blue;
+    width: 40%;
+    margin-left: 6rem;
+    background: rgb(60, 97, 199);
+    color: white;
+}
+.bord-1{
+    border: 1px solid red;
+    width: 40%;
+    margin-left: 6rem;
+    background: rgb(230, 45, 45);
+    color: white;
+}
+.imge-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.imge-wrapper img{
+    display: block;
+    width: 100%;
+    margin: auto;
+    object-fit: cover;
+    object-position: center;
+}
+.lgo{
+    margin: 0  1rem;
+    position: relative;
+}
+.imge-1{
+    width: 100%;
+}
+.imge-2{
+    width: 100%;
+}
+.imge-4{
+    width: 100%;
+}
+.imge-5{
+    width: 100%;
+}
+.imge-3{
+    width: 100%;
+}
+#textimal{
+    background: skyblue;
+}
+#textimal h6{
+    margin-top: 5rem;
+}
+.name{
+    margin-bottom: 5rem;
+}
+.offer-wrapper{
+    display: flex;
+}
+
+.offer-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: blue;
+    padding: 30px;
+    max-width: 100%;
+    margin: auto;
+    object-fit: cover;
+
+}
+.offer-text{
+    flex :1 1 400px;
+    margin: 0 auto;
+    margin-left: 5rem;
+}
+.offer-img img{
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+@media (max-width: 858px){
+    .card-wrapper{
+        flex-direction: column;
+    }
+    .offer-wrapper{
+        flex-direction: column;
+    }
+    .offer-img{
+        margin-top: 2rem;
+    }
+    .imge-wrapper{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .imge-wrapper img{
+        display: block;
+        width: 100%;
+        margin: auto;
+        object-fit: cover;
+        object-position: center;
+    }
+    .imge-1{
+        width: 50%;
+    }
+    .imge-2{
+        width: 50%;
+    }
+    .imge-4{
+        width: 50%;
+    }
+    .imge-5{
+        width: 50%;
+    }
+    .imge-3{
+        width: 50%;
+    }
+    .lgo{
+        margin: 1rem 0;
+        position: relative;
+    }
 }
