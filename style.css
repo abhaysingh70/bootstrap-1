@@ -176,7 +176,6 @@ p,h1,h6,h2,h4,h3{
 
 .offer-img{
     width: 300px;
-    height: 300px;
     border-radius: 50%;
     background: blue;
     padding: 30px;
@@ -186,7 +185,6 @@ p,h1,h6,h2,h4,h3{
 
 }
 .offer-text{
-    flex :1 1 400px;
     margin: 0 auto;
     margin-left: 5rem;
 }
