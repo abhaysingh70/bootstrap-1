@@ -32,6 +32,9 @@ p,h1,h6,h2,h4,h3{
 .card-1{
     margin-top: 1rem;
 }
+.card h5{
+    margin-top: 1rem;
+}
 .card i{
     border: 1px solid black;
     padding: 0.5rem;
