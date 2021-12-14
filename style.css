@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 .dropdown:hover .dropdown-menu {
     display: block;
@@ -78,16 +80,34 @@ p,h1,h6,h2,h4,h3{
 }
 
 
+
+
 .footer{
-    background-color: rgb(47, 67, 248);
+    background-color: rgb(78, 83, 128);
 
 }
-.ff{
+
+
+.foot-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    
     border-top: 1px solid white;
-    color: white;
     border-bottom: 1px solid white;
 
 }
+.foot{
+    width: 200px;
+    margin-top: 1rem;
+    color: white;
+}
+.foot a{
+    text-decoration: none;
+    color: white;
+}
+
 
 .check{
     font-size: 2rem;
@@ -246,6 +266,9 @@ p,h1,h6,h2,h4,h3{
     .lgo{
         margin: 1rem 0;
         position: relative;
+    }
+    .foot-wrapper{
+        flex-direction: column;
     }
 }
 
