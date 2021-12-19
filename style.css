@@ -57,7 +57,7 @@ p,h1,h6,h2,h4,h3{
 .about-text{
     flex: 1 1 300px;
     margin: auto;
-    padding: 30px;
+    padding: 10px;
 
 }
 .about-img{
@@ -93,7 +93,7 @@ p,h1,h6,h2,h4,h3{
 .ladu-text{
     flex: 1 1 200px;
     margin: auto;
-    padding: 30px;
+    padding: 10px;
 }
 .ladu-img img{
     display: block;
@@ -105,7 +105,6 @@ p,h1,h6,h2,h4,h3{
     padding: 50px 0;
 }
 .text-card{
-    padding: 30px;
     text-align: center;
 
 }
@@ -118,11 +117,11 @@ p,h1,h6,h2,h4,h3{
 .cad{
     margin:  auto;
     text-align: center;
-    justify-content: space-betw;
+    padding: 10px;
 
 }
 .card-1{
-    margin-top: 1rem;
+    margin-top: rem;
 }
 .card h5{
     margin-top: 1rem;
@@ -141,7 +140,7 @@ p,h1,h6,h2,h4,h3{
 }
 
 .text-crd{
-    padding: 30px;
+    padding: px;
 }
 .card-body{
     align-items: center;
@@ -285,7 +284,6 @@ p,h1,h6,h2,h4,h3{
 }
 .brand-text{
     text-align: center;
-    padding: 30px;
 }
 .imge-wrapper{
     display: flex;
@@ -325,7 +323,7 @@ p,h1,h6,h2,h4,h3{
     text-align: center;
 }
 #accordion{
-    padding: 30px;
+    padding: 10px;
 }
 
 #texti{
@@ -344,8 +342,8 @@ p,h1,h6,h2,h4,h3{
     margin: auto;
 }
 .texi-text{
+    padding: 10px;
     flex: 1 1 200px;
-    padding: 30px;
     margin: auto;
 }
 .texti-img img{
@@ -516,9 +514,12 @@ p,h1,h6,h2,h4,h3{
 
 @media (max-width: 500px){
     .bord{
-        margin-left: 3rem;
+        margin-left: 2.5rem;
+        width: 70%;
     }
     .bord-1{
-        margin-left: 3rem;
+        margin-left: 2.5rem;
+        width: 70%;
+
     }
 }
