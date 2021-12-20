@@ -6,10 +6,7 @@
     text-decoration: none;
 }
 
-.dropdown:hover .dropdown-menu {
-    display: block;
-    
-}
+
 .bb{
     border-radius: 20px;
 }
@@ -63,9 +60,9 @@
 
 
 .about-text{
-    flex: 1 1 500px;
+    flex: 1 1 400px;
     margin: auto;
-    padding: 10px 0;
+    padding: 10px ;
 
 }
 .about-img{
@@ -99,8 +96,8 @@
 }
 .ladu-text{
     margin: auto;
-    padding: 30px;
     flex: 1 1 300px;
+    padding:  30px;
 }
 .ladu-img img{
     display: block;
@@ -113,9 +110,10 @@
 }
 .text-card{
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 
 }
+
 #card h1 h6{
     font-weight: bold;
 }
@@ -150,8 +148,9 @@
     padding: 10px;
 }
 
+
 .text-crd{
-    padding: px;
+    padding: 20px;
 }
 
 .card-body{
@@ -183,6 +182,12 @@
     padding: 10px;
 
 }
+.saf h4{
+    margin-left: 1rem;
+}
+.saf p{
+    margin-left: 1rem;
+}
 .saf-img img{
     display: block;
     max-width: 100%;
@@ -200,13 +205,7 @@
 
 
 }
-.saf h4{
-    margin-left: 1rem;
 
-}
-.saf p{
-    margin-left: 1rem;
-}
 
 .circle{
     width: 250px;
@@ -310,6 +309,7 @@
 }
 .brand-text{
     text-align: center;
+    padding: 10px;
 }
 .imge-wrapper{
     display: flex;
@@ -333,7 +333,9 @@
 }
 .text-faq{
     text-align: center;
+    padding: 10px;
 }
+
 
 #texti{
     background:  rgb(203, 239, 253);
@@ -353,9 +355,9 @@
     padding: 30px;
 }
 .texi-text{
-    padding: 20px;
     margin: auto;
     flex: 1 1 400px;
+    padding: 30px;
 }
 
 .texti-img img{
@@ -383,7 +385,6 @@
 }
 
 .accordion{
-    max-width: 900px;
     box-shadow: 0 0 10px rgb(196, 93, 93);
     overflow: hidden;
     margin: 0 auto;
@@ -447,13 +448,7 @@ label.accordion_label{
     .offer-img{
         margin-top: 2rem;
     }
-    .bord-1{
-        width: 40%;
-        margin-right: 2rem;
-    }
-    .bord{
-        width: 60%;
-    }
+    
     .imge-wrapper{
         flex-direction: column;
         justify-content: space-between;
@@ -588,16 +583,26 @@ label.accordion_label{
     flex-direction: column;
 }
 }
+@media ( max-width:771px){
+    .bord-1{
+        margin-left: 10rem;
+        width: 30%;
+        padding: 10px;
 
+    }
+    .card{
+        padding: 10px;
+    }
+}
 
 @media (max-width: 500px){
     .bord{
         margin-left: 2rem;
-        width: 70%;
+        width: 40%;
     }
     .bord-1{
-        margin-left: 2rem;
-        width: 70%;
+        margin-left: 5rem;
+        width: 40%;
 
     }
     .about-text{
