@@ -15,7 +15,7 @@
 }
 
 * h6{
-    letter-spacing: 5px;
+    letter-spacing: 3px;
 }
 .header{
     width: 100%;
@@ -180,6 +180,7 @@
 }
 .saf-text{
     margin: auto;
+    padding: 10px;
 
 }
 .saf-img img{
