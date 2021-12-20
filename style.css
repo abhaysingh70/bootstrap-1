@@ -385,7 +385,7 @@
 }
 
 .accordion{
-    box-shadow: 0 0 10px rgb(196, 93, 93);
+    box-shadow: 0 0 10px hsl(0, 1%, 70%);
     overflow: hidden;
     margin: 0 auto;
 
