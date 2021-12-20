@@ -5,11 +5,17 @@
     list-style: none;
     text-decoration: none;
 }
+
 .dropdown:hover .dropdown-menu {
     display: block;
+    
 }
-p,h1,h6,h2,h4,h3{
-    padding: 0.2rem;
+.bb{
+    border-radius: 20px;
+}
+
+* h6{
+    letter-spacing: 5px;
 }
 .header{
     width: 100%;
@@ -23,7 +29,7 @@ p,h1,h6,h2,h4,h3{
     font-size: 1.5rem;
 
 }
-
+ 
 
 .logo span{
     color: rgb(47, 141, 248);
@@ -36,7 +42,9 @@ p,h1,h6,h2,h4,h3{
 
 
 #about{
-    background: rgb(47, 67, 248);;
+    background: rgb(47, 67, 248);
+
+
 }
 .about-wrapper{
     display: flex;
@@ -55,19 +63,19 @@ p,h1,h6,h2,h4,h3{
 
 
 .about-text{
-    flex: 1 1 300px;
+    flex: 1 1 500px;
     margin: auto;
-    padding: 10px;
+    padding: 10px 0;
 
 }
 .about-img{
-    flex: 1 1 400px;
-    padding: 30px;
     margin: auto;
+    flex: 1 1 300px;
 }
 .about-img img{
     display: block;
-    max-width: 100%;
+    
+    max-width: 80%;
     margin: auto;
     object-fit: cover;
     
@@ -86,14 +94,13 @@ p,h1,h6,h2,h4,h3{
     flex-wrap: wrap;
 }
 .ladu-img{
-    flex: 1 1 50px;
     padding: 30px;
     margin: auto;
 }
 .ladu-text{
-    flex: 1 1 200px;
     margin: auto;
-    padding: 10px;
+    padding: 30px;
+    flex: 1 1 300px;
 }
 .ladu-img img{
     display: block;
@@ -106,6 +113,7 @@ p,h1,h6,h2,h4,h3{
 }
 .text-card{
     text-align: center;
+    padding: 20px;
 
 }
 #card h1 h6{
@@ -117,17 +125,17 @@ p,h1,h6,h2,h4,h3{
 .cad{
     margin:  auto;
     text-align: center;
-    padding: 10px;
+    padding: 30px;
 
 }
-.card-1{
-    margin-top: rem;
+.card{
+    padding: 10px;
 }
+
 .card h5{
     margin-top: 1rem;
 }
 .card i{
-    border: 1px solid black;
     margin-top: 1rem;
 
 }
@@ -138,10 +146,14 @@ p,h1,h6,h2,h4,h3{
 #singh{
     padding: 50px 0;
 }
+.singh{
+    padding: 10px;
+}
 
 .text-crd{
     padding: px;
 }
+
 .card-body{
     align-items: center;
 }
@@ -163,29 +175,31 @@ p,h1,h6,h2,h4,h3{
 }
 
 .saf-img{
-    flex: 1 1 100px;
     padding: 30px;
     margin: auto;
 }
 .saf-text{
-    flex: 1 1 200px;
     margin: auto;
+
 }
 .saf-img img{
     display: block;
     max-width: 100%;
     margin: auto;
     object-fit: cover;
+
 }
 
 
 
 
 .saf{
-    margin-left: 2rem;
+    margin-left: 1rem;
     border-left: 3px solid blue;
 
+
 }
+
 
 .circle{
     width: 250px;
@@ -262,16 +276,21 @@ p,h1,h6,h2,h4,h3{
 
 
 .bord{
-    border: 1px solid blue;
-    width: 40%;
-    margin-left: 6rem;
+    
+    display: block;
+    width: 30%;
+    margin-left: 8rem;
+    font-size: 2rem;
     background: rgb(60, 97, 199);
+    border: 1px solid blue;
     color: white;
 }
 .bord-1{
+    display: block;
+    width: 30%;
     border: 1px solid red;
-    width: 40%;
     margin-left: 6rem;
+    font-size: 2rem;
     background: rgb(230, 45, 45);
     color: white;
 }
@@ -292,7 +311,7 @@ p,h1,h6,h2,h4,h3{
 }
 .imge-wrapper img{
     display: block;
-    width: 100%;
+    width: 15%;
     margin: auto;
     object-fit: cover;
     object-position: center;
@@ -301,35 +320,21 @@ p,h1,h6,h2,h4,h3{
     margin: 0  1rem;
     position: relative;
 }
-.imge-1{
-    width: 100%;
-}
-.imge-2{
-    width: 100%;
-}
-.imge-4{
-    width: 100%;
-}
-.imge-5{
-    width: 100%;
-}
-.imge-3{
-    width: 100%;
-}
+
 #faq{
     padding: 50px 0;
 }
 .text-faq{
     text-align: center;
 }
-#accordion{
-    padding: 10px;
-}
 
 #texti{
-    padding: 50px 0;
     background:  rgb(203, 239, 253);
-    ;
+    padding: 50px 0;
+
+}
+.texi-text img{
+    border-radius: 50%;
 }
 .texti-wrapper{
     display: flex;
@@ -337,15 +342,15 @@ p,h1,h6,h2,h4,h3{
 }
 
 .texti-img{
-    flex: 1 1 50px;
-    padding: 30px;
     margin: auto;
+    padding: 30px;
 }
 .texi-text{
-    padding: 10px;
-    flex: 1 1 200px;
+    padding: 20px;
     margin: auto;
+    flex: 1 1 500px;
 }
+
 .texti-img img{
     display: block;
     max-width: 100%;
@@ -358,10 +363,73 @@ p,h1,h6,h2,h4,h3{
 }
 .footer h5{
     font-weight: bold;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
+
+}
+.gts{
+    text-align: center;
+    border-radius: 10px;
+}
+.btn{
+    border-radius: 10px;
 
 }
 
+.accordion{
+    max-width: 900px;
+    box-shadow: 0 0 10px rgb(196, 93, 93);
+    overflow: hidden;
+    margin: 0 auto;
+
+}
+.accordion_label,.accordion_content{
+    padding: 14px 20px;
+    align-items: center;
+
+}
+.accordion_label{
+    display: block;
+    font-weight: 500;
+     cursor: pointer;
+     position: relative;
+     font-size: 1.8rem;
+     text-align: center;
+}
+.accordion_label:hover{
+    background: white;
+}
+
+.accordion_label::after{
+   content: "";
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   right: 20px;
+   width: 12px;
+   height: 6px;
+}
+.accordion_content{
+    background: white;
+    line-height: 1.6;
+    font-size: 0.85em;
+    display: none;
+}
+.accordion_input{
+    display: none;
+}
+
+.accordion_input:checked ~ .accordion_content{
+    display: block;
+}
+.accordion label{
+    font-size: 2rem;
+}
+label.accordion_label{
+    font-size: 1rem;
+}
+.form-control{
+    border-radius: 10px;
+}
 @media (max-width: 858px){
     .card-wrapper{
         flex-direction: column;
@@ -373,7 +441,8 @@ p,h1,h6,h2,h4,h3{
         margin-top: 2rem;
     }
     .bord-1{
-        width: 60%;
+        width: 40%;
+        margin-right: 2rem;
     }
     .bord{
         width: 60%;
@@ -385,10 +454,11 @@ p,h1,h6,h2,h4,h3{
     }
     .imge-wrapper img{
         display: block;
-        width: 100%;
+        width: 50%;
         margin: auto;
         object-fit: cover;
         object-position: center;
+        padding: 30px;
     }
     .imge-1{
         width: 50%;
@@ -496,9 +566,10 @@ p,h1,h6,h2,h4,h3{
 }
 .footer h5{
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 
 }
+
 .ladu-wrapper{
     flex-direction: column;
 }
@@ -514,12 +585,22 @@ p,h1,h6,h2,h4,h3{
 
 @media (max-width: 500px){
     .bord{
-        margin-left: 2.5rem;
+        margin-left: 2rem;
         width: 70%;
     }
     .bord-1{
-        margin-left: 2.5rem;
+        margin-left: 2rem;
         width: 70%;
 
+    }
+    .about-text{
+        padding: 50px 0;
+    }
+    .abh{
+        flex-direction: column;
+    }
+    #singh h5{
+        font-size: 1rem;
+        font-weight: bold;
     }
 }
