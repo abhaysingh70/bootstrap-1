@@ -233,6 +233,13 @@
 
 }
 
+.foot li a{
+    text-decoration: none;
+    list-style: none;
+}
+.foot li a:hover{
+    color: rgb(199, 188, 33);
+}
 
 .foot-wrapper{
     display: flex;
@@ -257,6 +264,7 @@
 .footer{
     padding-top: 50px ;
 }
+
 .getin{
     text-align: center;
 }
