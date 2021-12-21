@@ -293,7 +293,7 @@
     
     display: block;
     width: 30%;
-    margin-left: 8rem;
+    margin: auto;
     font-size: 2rem;
     background: rgb(60, 97, 199);
     border: 1px solid blue;
