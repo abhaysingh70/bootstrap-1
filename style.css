@@ -627,3 +627,9 @@ label.accordion_label{
         font-size: 1rem;
     }
 }
+@media only screen and (max-width: 768px){
+    .bord-1{
+        width: 30%;
+        margin: auto;
+    }
+}
