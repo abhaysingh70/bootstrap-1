@@ -620,6 +620,10 @@ label.accordion_label{
     }
     .abh{
         flex-direction: column;
+
+    }
+    .abh p{
+        font-size: 0.8rem;
     }
     #singh h5{
         font-size: 1rem;
